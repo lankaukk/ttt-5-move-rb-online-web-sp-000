@@ -9,6 +9,10 @@ def move(board, update_array_at_with, char = "X")
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
+def update_array_at_with(array, index, value)
+    board[0] = "X"
+  end
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
