@@ -9,8 +9,6 @@ def move(board, update_array_at_with, char = "X")
     board[0] = char
 end
 
-move (display_board, board[4], "O")
-
 
 
 def display_board(board)
