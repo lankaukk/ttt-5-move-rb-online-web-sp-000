@@ -5,7 +5,7 @@ def input_to_index(user_input)
  user_input.to_i - 1
 end
 
-def move(board, char = "X")
+def move(board, index, char = "X")
     board[0] = char
 end
 
