@@ -7,8 +7,6 @@ end
 
 def move(board, update_array_at_with, char = "X")
     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  
-  
 end
 
 
