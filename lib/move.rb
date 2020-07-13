@@ -6,10 +6,9 @@ def input_to_index(user_input)
 end
 
 def move(board, update_array_at_with, char = "X")
-    board[0] = char
+    board[0] = "char"
 end
 
-move(board[4], O )
 
 
 def display_board(board)
