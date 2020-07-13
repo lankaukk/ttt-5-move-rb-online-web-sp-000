@@ -10,7 +10,6 @@ def move(board, update_array_at_with, char = "X")
 end
 
 
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
