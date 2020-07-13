@@ -9,8 +9,6 @@ def move(board, index, char = "X")
     board[index] = char
 end
 
-board = [ " ", " ", " ", " ", " ", " ", " ", " ", " " ]
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
